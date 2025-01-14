@@ -24,7 +24,6 @@ def read_frm_csv(file):
     
 file = "emp_detail.csv"
 employees = read_frm_csv(file)
-t2 = Employee(employees)
 for employee in employees:
     print(employee)
 
