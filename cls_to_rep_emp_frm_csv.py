@@ -22,10 +22,10 @@ def read_frm_csv(file):
             employee_data.append(employee)
     return employee_data
     
+
+
 file = "emp_detail.csv"
 employees = read_frm_csv(file)
-t2 = Employee(employees)
 for employee in employees:
     print(employee)
-
 
